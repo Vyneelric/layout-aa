@@ -46,20 +46,23 @@ main{
     flex-direction: column;
 }
 .container h1{
-    font-size: 96px;
+    font-size: 62px;
 }
 .container p{
     width: 90%;
-    font-size: 48px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgb(75, 75, 75);
+    padding-top: 40px;
 }
 
 .acao button{
-    height: 100px;
+    height: 80px;
     width: 230px;
     font-size: 24px;
     background-color: black;
     color: white;
+    margin-top: 80px;
 }
 .social{
     width: 90%;
@@ -68,10 +71,11 @@ main{
 }
 
 .social div{
-    width: 96px;
-    height: 96px;
+    width: 66px;
+    height: 66px;
     border-radius: 50%;
-    background-color: gray  ;
+    background-color: gray;
+    margin-top: 280px;
 }
 .imagem{
     height: 100%;
