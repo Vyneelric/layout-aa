@@ -26,9 +26,9 @@ header{
     align-items: center;
 }
 .logo{
-    background-color: gray;
     height: 64px;
     width: 64px;
+    background-image: url("./img/guarda-chuva\ \(1\).png");
 }
 .menu ul{
     display: flex;
@@ -81,6 +81,8 @@ main{
     height: 100%;
     width: 50%;
     background-color: gray;
+    background-position: center;       
+    background-image: url("./img/aberta.png");
 }
 footer{
     height: 100px;
