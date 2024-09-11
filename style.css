@@ -1,16 +1,38 @@
+/* RESET */
 *{
     padding: 0;
     margin: 0;
     box-sizing: 0;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+}
+/* FIM DO RESET */
+
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 64px;
 }
 header{
-    background-color: aqua;
-    height: 100px
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-color: gray;
+    height: 64px;
+    width: 64px;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
 }
 main{
     background-color: red;
