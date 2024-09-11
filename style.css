@@ -71,7 +71,7 @@ main{
     width: 96px;
     height: 96px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: gray  ;
 }
 .imagem{
     height: 100%;
